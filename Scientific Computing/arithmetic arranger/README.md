@@ -1,7 +1,7 @@
-### Arithmetic Arranger
+# Arithmetic Arranger
 
 Students in primary school often arrange arithmetic problems vertically to make them easier to solve. For example, "235 + 52" becomes:
-```
+```py
   235
 +  52
 -----
@@ -15,21 +15,18 @@ Function Call:
 ```py
 arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])
 ```
-
 Output:
-```
+```py
    32      3801      45      123
 + 698    -    2    + 43    +  49
 -----    ------    ----    -----
 ```
-
 Function Call:
 ```py
 arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True)
 ```
-
 Output:
-```
+```py
   32         1      9999      523
 +  8    - 3801    + 9999    -  49
 ----    ------    ------    -----
